@@ -113,9 +113,9 @@ export const App = () => {
 
     // LS.setItem(LSKeys.ShowThx, true);
     setLoading(false);
-    // window.location.replace(
-    //   'alfabank://multistep-route?fromModule=FORM&stepNumber=0&alias=invest-long-term-savings-open-alias&prefilledDataID=1001&version=2',
-    // );
+    window.location.replace(
+      'alfabank://multistep-route?fromModule=FORM&stepNumber=0&alias=invest-long-term-savings-open-alias&prefilledDataID=1001&version=2',
+    );
   };
 
   const handleBlurInputCalc1 = () => {
