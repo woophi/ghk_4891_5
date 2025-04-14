@@ -167,7 +167,9 @@ export const App = () => {
           <img src={hb} alt="hb" width="100%" height={144} className={appSt.img} />
 
           <div className={appSt.hbBoxText}>
-            <Typography.Text view="primary-medium">Более 2 млн пользователей за 2024 оформили ПДС</Typography.Text>
+            <Typography.Text view="primary-medium">
+              Более 2.000.000 человек за 2024 год стали участниками программы
+            </Typography.Text>
           </div>
         </div>
 
