@@ -41,6 +41,11 @@ const hbBoxText = style({
   left: '0',
   width: '100%',
   textAlign: 'center',
+  '@media': {
+    'screen and (max-width: 330px)': {
+      bottom: '-88px',
+    },
+  },
 });
 
 const box = style({
